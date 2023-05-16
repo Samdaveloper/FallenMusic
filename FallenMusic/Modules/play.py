@@ -159,9 +159,9 @@ async def play(_, message: Message):
     elif url:
         try:
             results = YoutubeSearch(url, max_results=1).to_dict()
-            title = results[0]["title"]
-            duration = results[0]["duration"]
-            videoid = results[0]["id"]
+            title = results[0]["❤️‍🔥title❤️‍🔥"]
+            duration = results[0]["🍃duration🍃"]
+            videoid = results[0]["✨id✨"]
 
             secmul, dur, dur_arr = 1, 0, duration.split(":")
             for i in range(len(dur_arr) - 1, -1, -1):
@@ -179,7 +179,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await fallen.edit_text("» ᴡʜᴀᴛ ᴅᴏ ʏᴏᴜ ᴡᴀɴɴᴀ ᴘʟᴀʏ ʙᴀʙʏ ?")
-        await fallen.edit_text("🔎")
+        await fallen.edit_text("💖")
         query = message.text.split(None, 1)[1]
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
