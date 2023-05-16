@@ -33,10 +33,10 @@ close_key = InlineKeyboardMarkup(
 buttons = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="▷", callback_data="resume_cb"),
-            InlineKeyboardButton(text="II", callback_data="pause_cb"),
-            InlineKeyboardButton(text="‣‣I", callback_data="skip_cb"),
-            InlineKeyboardButton(text="▢", callback_data="end_cb"),
+            InlineKeyboardButton(text="❣️▷❣️", callback_data="resume_cb"),
+            InlineKeyboardButton(text="❤️‍🔥II❤️‍🔥", callback_data="pause_cb"),
+            InlineKeyboardButton(text="✨‣‣I✨", callback_data="skip_cb"),
+            InlineKeyboardButton(text="🍃▢🍃", callback_data="end_cb"),
         ]
     ]
 )
@@ -51,14 +51,14 @@ pm_buttons = [
     ],
     [InlineKeyboardButton(text="ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="fallen_help")],
     [
-        InlineKeyboardButton(text="❄ ᴄʜᴀɴɴᴇʟ ❄", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="❤️‍🔥 ᴄʜᴀɴɴᴇʟ ⨻ ᴥᴅ ❤️‍🔥", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ⨻ ᴥᴅ ✨", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
-            text="☁️ sᴏᴜʀᴄᴇ ☁️", url="https://github.com/AnonymousX1025/FallenMusic"
+            text="🥺 sᴏᴜʀᴄᴇ ⨻ ᴥᴅ 🥺", url="https://graph.org/file/13155d681592a3fd1bd33.jpg"
         ),
-        InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ ⨻ ᴥᴅ 🥀", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -71,14 +71,14 @@ gp_buttons = [
         )
     ],
     [
-        InlineKeyboardButton(text="❄ ᴄʜᴀɴɴᴇʟ ❄", url=config.SUPPORT_CHANNEL),
-        InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_CHAT),
+        InlineKeyboardButton(text="❤️‍🔥 ᴄʜᴀɴɴᴇʟ ⨻ ᴥᴅ ❤️‍🔥", url=config.SUPPORT_CHANNEL),
+        InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ⨻ ᴥᴅ ✨", url=config.SUPPORT_CHAT),
     ],
     [
         InlineKeyboardButton(
-            text="☁️ sᴏᴜʀᴄᴇ ☁️", url="https://github.com/TheAnonymous2005/FallenMusic"
+            text="🥺 sᴏᴜʀᴄᴇ ⨻ ᴥᴅ 🥺", url="https://graph.org/file/13155d681592a3fd1bd33.jpg"
         ),
-        InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", user_id=config.OWNER_ID),
+        InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ ⨻ ᴥᴅ 🥀", user_id=config.OWNER_ID),
     ],
 ]
 
@@ -102,7 +102,7 @@ helpmenu = [
 
 
 help_back = [
-    [InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_CHAT)],
+    [InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ⨻ ᴥᴅ ✨", url=config.SUPPORT_CHAT)],
     [
         InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="fallen_help"),
         InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close"),
